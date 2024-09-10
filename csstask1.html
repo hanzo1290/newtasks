@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        *
+        {
+            background-color: azure;
+            box-sizing: border-box;
+           
+        }
+        .container
+        {
+           
+
+        }
+        .row
+        {
+            /* justify-content: center; */
+            text-align: center;
+            display: flex;
+            flex-grow: 1;
+            
+
+        }
+        .col
+        {
+           flex-basis: 300px;
+            border: 2px solid black;
+            overflow: hidden;
+            background-color: white;
+            
+
+             
+            border-radius: 30px 30px 0 0;
+        }
+        img
+        {
+            width: 100%;
+            height: 60%;
+            padding: 10px;
+            border: 1px solid black;
+            
+            background-color: white;
+            border-radius: 0 0 30px 30px;
+            
+            
+        }
+        .content
+    {   
+       background-color: white;
+       display: ;
+    }
+    #discount
+    {
+            text-align: center;
+            margin-top: 10px;
+            width: 200px;
+            height: 70px;
+            border: 2px solid black;
+            overflow: hidden;
+             
+        /* border: 3px solid black; */
+            border-radius: 30px 0 0 30px;
+    }
+    #discount1
+    {
+            text-align: center;
+            margin-top: 10px;
+            width: 70px;
+            height: 70px;
+            border: 2px solid black;
+            overflow: hidden;
+             
+        /* border: 3px solid black; */
+            border-radius: 0 30px 30px 0;
+    }
+    #red
+    {
+        color: red;
+        background-color: white;
+        text-align: right;
+        
+    }
+    </style>
+</head>
+<body>
+
+
+    <!-- <i class="fa-regular fa-heart"></i> -->
+
+
+    <div class="container">
+        
+        <div class="row">
+
+            <div class="col"> <img src="photos/yamato.jpg" alt="">
+            
+                   
+                <h3 class="content" align="left">YAMATO</h3>   <h3 id="red">$59.99</h3>
+                
+                         
+          </div>
+
+        </div>
+
+        <div>
+            <!-- row2 -->
+            <div id="discount"> 
+                 <p> YAMATO </p>                 
+            </div>
+         
+            <!-- col2 -->
+            <div id="discount1"> 
+                <p>
+                   YAMATO 
+                </p>                 
+            </div>
+    
+
+        </div>
+
+
+
+
+        
+     
+
+
+    </div>
+    
+</body>
+</html>
