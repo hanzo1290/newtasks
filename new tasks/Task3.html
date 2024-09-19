@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        body
+        {
+            padding: 0;
+            margin: 0;
+           
+
+        }
+        .navbar
+        {
+            display: flex;
+            background: purple;
+            padding: 20px;
+        }
+        .fedex
+        {
+            color: white;
+            font-size: 35px;
+            margin-left: 60px;
+            margin-right: 40px;
+        }
+    .Shipping,.Tracking,.DesignAndPrint,.Locations,.Support
+    {
+        color: white;
+        margin: 0px 30px;
+        font-size: 20px;
+        margin-top: 6px;
+        
+    }
+    .Signup
+    {
+        color: white;
+        margin: 0px 40px;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .fa-user
+    {
+        margin-left: 10px;
+        padding: 5px;
+        border: 3px solid white;
+        border-radius: 50%;
+    }
+    h1
+    {
+        line-height: 200px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .main
+    {
+       height: 90vh;
+        position: relative;
+        border: 3px solid black;
+        
+        
+        overflow: hidden;
+        
+        
+        
+    }
+    
+   
+    h1
+    {
+        margin: 0;
+    }
+    .center
+    {
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    
+    .box1,.box2,.box3
+    {
+       text-align: center;
+       /* line-height: 100px; */
+        /* margin: 100px auto; */
+        width: 100px;
+        height: 100px;
+        background-color: cornsilk;
+        transition: 1s;
+        /* border: 3px solid black; */
+    }
+    .main img
+    {
+       width:160vh;
+       height: 90vh;
+        position: absolute;
+        z-index: -1;
+    }
+    .box
+    {
+        width: 850px;
+        height: 600px;
+        margin-top: 100px;
+        margin-left: 770px;
+        background: linear-gradient(120deg,blue 25%,red);
+        position: absolute;
+        transform: rotate(120deg);
+        z-index: -1;
+    }
+    input
+    {
+        margin-top: 130px;
+        margin-left: 400px;
+        font-size: 39px;
+    }
+    button
+    { 
+        /* margin: 0;
+        padding: 10px; */
+        
+        font-size: 40px;
+        color: white;
+        background-color: orangered;
+        border: 0;
+    }
+    .box1:hover 
+    {
+        transform: scale(1.1);
+        background-color: aquamarine;
+    }
+    .box2:hover 
+    {
+        transform: scale(1.1);
+        background-color: aquamarine;
+    }
+    .box3:hover 
+    {
+        transform: scale(1.1);
+        background-color: aquamarine;
+    }
+   .fa-folder,.fa-magnifying-glass-location,.fa-location-dot
+   {
+    font-size: 30px;
+   }
+   .last
+   {
+    /* margin-top: 150px; */
+    margin-left: 400px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+   }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="fedex"><b>Fed <span style="color: orangered;">EX</span></b></div>
+        <div class="Shipping">Shipping</div>
+        <div class="Tracking">Tracking</div>
+        <div class="DesignAndPrint">Design And Print</div>
+        <div class="Locations">Locations</div>
+        <div class="Support">Support</div>
+        <div class="Signup">Sign Up Or Sign In<i class="fa-regular fa-user"></i> </div>
+    </div>
+    <div class="main">
+        <img src="plant.jpg" alt="">
+        <div class="box"></div>
+        <h1>Ship,Manage,Track,Deliver</h1>
+        <div class="center">
+            <div class="box1"><br><i class="fa-solid fa-folder"></i><br>Rate & Ship</div>
+            <div class="box2"><br><i class="fa-solid fa-magnifying-glass-location"></i><br>Track</div>
+            <div class="box3"><br><i class="fa-solid fa-location-dot"></i><br>Location</div>
+            
+        </div>
+      <input type="search"><button>Track</button>
+      <p class="last">Multiple Tracking Numbers|Need Help?</p>
+    </div>
+   
+</body>
+</html>

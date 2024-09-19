@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body
+        {
+            box-sizing: border-box;
+            background: black;
+        }
+        .main
+        {
+            position: relative;
+        }
+        .round1
+        {
+            width:200px;
+            height: 200px;
+            background-color: purple;
+            border-radius: 50%;
+            margin: 50px 260px;
+            position: absolute;
+        }
+        .round2
+        {
+            
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            border-radius: 50%;
+            margin: 160px 500px;
+            position: absolute;
+        }
+        .text
+        {
+            width: 250px;
+            height: 150px;
+            background-color: rgba(255, 253, 253,0.2);
+            /* opacity: 1; */
+            /* filter: blur(5px); */
+            margin: 90px 300px;
+            position: absolute;
+            box-shadow: 3px 3px 7px black;
+            z-index: 1;
+            backdrop-filter:blur(14px) ;
+        }
+     
+        .img img
+        {
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            opacity: 1;
+            border-radius: 50%;
+
+        }
+        .img
+        {
+            position: absolute;
+        }
+        .text p
+    {
+        padding-left: 100px;
+        line-height: 2px;
+        color: white;
+    }
+    .fa-earth-americas
+    {
+        font-size: 10px;
+    }
+    .box
+    {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 253, 253,0.1);
+        backdrop-filter: blur(10px);
+        margin: 220px 480px;
+        position: absolute;
+        box-shadow: 3px 3px 7px black;
+        z-index: 1;
+        transform: rotate(30deg);
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="text">
+            <div class="img">
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/23/34/cartoon-business-man-employee-office-work-vector-12652334.jpg" alt="">
+            </div>
+            <p><b>Mohit kokvani</b>
+            </p>
+            <p style="font-size: 8px;">
+                abc1223@gmail.com
+            </p>
+            <p style="line-height: 15px; font-size:10px ;" >
+                UI/UX Designer|Front end developer|graphics designer
+            </p>
+            <p ><i class="fa-solid fa-earth-americas"></i> xyz.com</p>
+            <p ><i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-linkedin"></i>    <i class="fa-brands fa-instagram">  </i></p>
+           
+        </div>
+        <div class="box"></div>
+        
+        <div class="round1"></div>
+         <div class="round2"></div>
+    </div>
+    
+</body>
+</html>

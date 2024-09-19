@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        *
+        {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main
+        {
+            display: flex;
+            /* background-color: blue; */
+            /* width: 100%;
+            height: 100%; */
+            position: relative;
+
+        }
+        .part1,.part2
+        {
+            width: 110vh;
+            height: 100vh;
+            background-color: pink;
+            /* position: absolute; */
+        }
+        .part2
+        {
+         
+            background-color: whitesmoke;
+            /* position: absolute; */
+        }
+        .card
+        {
+            margin:40px 90px;
+
+            width: 1200px;
+            height: 600px;
+            position: absolute;
+            /* left: 0;
+            top: 0; */
+            background-color: white;
+            box-shadow: 5px 5px 17px black;
+            overflow: hidden;
+            padding: 60px;
+        }
+        .img1
+        {
+            width: 600px;
+            height: 350px;
+            transform: rotate(-20deg);
+            position: absolute;
+            /* border:  3px solid black; */
+            margin-left: 300px;
+            margin-top: 50px;
+           
+            background-color: white;
+            
+        }
+        .img2
+        {
+            margin-left: 0px;
+            margin-top: 0;
+            width: 130px;
+            height: 100px;
+            position: absolute;
+            /* border: 3px solid black; */
+            
+        }
+        .logo
+        {
+            font-size: 25px;
+            margin-top: 0px;
+            margin-left: 140px;
+            
+
+        }
+        h2
+        {
+            margin-top: 120px;
+            margin-left: 0px;
+        }
+        button
+        {
+            margin-top: 70px;
+            width: 300px;
+            height: 70px;
+            border: 0;
+            color:white;
+            background-color: rgb(229, 133, 165);
+            font-size: 20px;
+        }
+        i
+        {
+            /* border: 3px solid black; */
+            margin: 0;
+            padding: 5px;
+            color: palevioletred;
+            border: 2px solid palevioletred;
+            border-radius: 50%;
+        }
+        .navbar
+        {
+            display: flex;
+           
+        }
+        .home
+        {
+            margin-left: 300px;
+        }
+        .contactus,.featured,.product,.aboutus
+        {
+            margin-left: 40px;
+        }
+        .size
+        {
+            margin-left: 900px;
+      
+        }
+        span
+        {
+            margin-left: 900px;
+            color: palevioletred;
+        }
+        .btn
+        {
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body> 
+  
+    <div class="main">
+        <div class="part1"></div>
+        <div class="part2"></div>
+        <div class="card">
+            <div class="navbar">
+                <img src="logo.png" alt="" class="img2">
+                <p class="logo"><br>Nike</p>
+                <div class="home">HOME</div>
+                <div class="featured" style="color: palevioletred;">FEATURED</div>
+                <div class="product">PRODUCT</div>
+                <div class="aboutus">ABOUT US</div>
+                <div class="contactus">CONTACT US</div>
+            </div>
+            <img src="shoes-removebg-preview.png" alt="" class="img1">
+          
+            <h2>NIKE SHOES</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. <br>
+                dolor sit amet consectetur
+            </p>
+            <button class="btn">Buy Now</button>
+            <span>Apply Size</span>
+            <input type="range" class="size"><br><br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <!-- <span class="size">Apply Size</span> -->
+            
+        </div>
+    </div>
+    
+</body>
+</html>
